@@ -4,3 +4,18 @@
   margin-bottom: 1.3rem;
   padding: 1.3rem;
 }
+
+/*BEM - Block, Element, Modifier - double underscore, always use classes, never use elements or nested element
+=> scalable, reusable, maintainable styles
+*/
+.item__message {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+// modifier: style for a special element
+// .item__message--empty {
+//   color: #999999;
+// }
